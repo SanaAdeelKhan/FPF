@@ -17,7 +17,7 @@ from app.models.candidate import ParsedCVProfile
 
 _client: genai.Client | None = None
 
-MODEL_NAME = "gemini-2.0-flash"
+MODEL_NAME = "gemini-3.6-flash"
 
 RESPONSE_SCHEMA = {
     "type": "object",
