@@ -1,0 +1,36 @@
+/*
+  CSS custom properties mirroring theme.ts. This is the single import every
+  other stylesheet reaches for — never hardcode a hex value in a component
+  stylesheet; add or reuse a variable here instead.
+
+  Keep these values in sync with theme.ts by hand (CSS can't import .ts).
+*/
+
+:root {
+  /* Surfaces */
+  --bg: #F8FAFC;
+  --surface: #FFFFFF;
+
+  /* Text */
+  --ink: #0F172A;
+  --ink-soft: #475569;
+
+  /* Primary accent */
+  --primary: #2563EB;
+  --primary-dark: #1D4ED8;
+  --primary-soft: #EFF6FF;
+
+  /* Status */
+  --success: #059669;
+  --success-bg: #ECFDF5;
+  --danger: #DC2626;
+  --danger-bg: #FEF2F2;
+
+  /* Structure */
+  --border: #E2E8F0;
+  --radius: 8px;
+
+  /* Hidden-requirements "seal" */
+  --seal: #0F172A;
+  --seal-stripe: #1E293B;
+}
