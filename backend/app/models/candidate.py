@@ -49,3 +49,6 @@ class Candidate(CandidateCreate):
     id: str
     parsed_profile: ParsedCVProfile | None = None
     created_at: datetime
+
+    class Config:
+        from_attributes = True
